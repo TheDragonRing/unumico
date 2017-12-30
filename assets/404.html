@@ -1,31 +1,26 @@
----
-permalink: /404.html
----
-
-<!--
-  Unumico by TheDragonRing (thedragonring.me)
-  Copyright © 2017 TheDragonRing - Creative Commons Attribution 4.0 International License
--->
+ --- permalink: /404.html ---
 
 <!DOCTYPE html>
+
+<!--
+  Unumico - A simple but nice one-page website template.
+  ======================================================
+  Copyright (c) 2017 TheDragonRing <hello@thedragonring.me>, under the MIT License.
+-->
+
 <html>
+
 <head>
   <title>404 Not Found - Redirecting...</title>
   <meta charset="UTF-8">
   <meta name="author" content="TheDragonRing">
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script>
-
-  $(document).ready(function(){
-
-    if(window.location.href.slice(-1) === '/'){
+    if (window.location.href.slice(-1) === '/') {
       window.location.assign('../');
-    }else{
+    } else {
       window.location.assign('./');
     }
-
-  });
-
   </script>
 </head>
+
 </html>

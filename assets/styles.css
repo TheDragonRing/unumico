@@ -1,13 +1,13 @@
-/*
-  Unumico by TheDragonRing (thedragonring.me)
-  Copyright © 2017 TheDragonRing - Creative Commons Attribution 4.0 International License
-*/
+/**
+ * Unumico - A simple but nice one-page website template.
+ * ======================================================
+ * Copyright (c) 2017 TheDragonRing <hello@thedragonring.me>, under the MIT License.
+ */
 
 /* GLOBAL */
 
-@import url("font-awesome/css/font-awesome.min.css");
+@import url("fontawesome-4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
 * {
   box-sizing: border-box;
   color: #fff;
@@ -34,14 +34,12 @@ html:before {
 }
 
 @media screen and (max-width: 500px) {
-
   html:before {
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;
     background-size: auto;
   }
-
 }
 
 body {
@@ -50,21 +48,17 @@ body {
 }
 
 @media screen and (max-width: 1125px) {
-
   body {
     padding: 5% 10%;
     padding-bottom: 7.5%;
   }
-
 }
 
 @media screen and (max-width: 500px) {
-
   body {
     padding: 5%;
     padding-bottom: 17.5%;
   }
-
 }
 
 a {
@@ -140,7 +134,7 @@ hr.vertical {
   width: 5%;
 }
 
-.option + hr {
+.option+hr {
   margin-top: 100px;
 }
 
@@ -224,42 +218,34 @@ hr.vertical {
 }
 
 @media screen and (max-width: 500px) {
-
   #home img {
     height: 30%;
     width: 30%;
   }
-
 }
 
 @media screen and (max-width: 750px) {
-
   #home p {
     font-size: 15px;
   }
-
   #home ul li {
     padding: 3px;
     width: 62.5%;
   }
-
   #home ul li a {
     font: 15px "Source Sans Pro", sans-serif;
     display: block;
   }
-
   #home ul li:first-child a {
     border-radius: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
-
   #home ul li:last-child a {
     border-radius: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
-
 }
 
 /* OTHER PAGES */
@@ -439,7 +425,7 @@ select option {
   background-color: rgba(1, 2, 3, 0.75);
 }
 
-input[type="radio"], input[type="checkbox"]{
+input[type="radio"], input[type="checkbox"] {
   display: none;
 }
 
@@ -451,12 +437,12 @@ input[type="radio"], input[type="checkbox"]{
   position: relative;
 }
 
-.option input[type="radio"]:checked + label span.radio::after {
+.option input[type="radio"]:checked+label span.radio::after {
   background-color: rgb(175, 20, 20);
   left: -27px;
 }
 
-.option input[type="checkbox"]:checked + label span.checkbox::after {
+.option input[type="checkbox"]:checked+label span.checkbox::after {
   color: rgb(175, 20, 20);
 }
 
@@ -516,15 +502,12 @@ input[type="radio"], input[type="checkbox"]{
 }
 
 @media screen and (max-width: 550px) {
-
   .option {
     padding-left: 50px;
   }
-
   .option label {
     font-size: 12.5px;
   }
-
 }
 
 /* TABLES */
@@ -637,15 +620,12 @@ footer {
 }
 
 @media screen and (max-width: 1125px) {
-
   footer {
     width: 90%;
   }
-
 }
 
 @media screen and (max-width: 500px) {
-
   footer {
     font: 12.5px "Source Sans Pro", sans-serif;
     border-radius: 0;
@@ -653,5 +633,4 @@ footer {
     border-top: 1px solid #fff;
     width: 100%;
   }
-
 }

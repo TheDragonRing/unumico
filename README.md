@@ -1,30 +1,21 @@
-Unumico
-========
----------
-This is a small one-page website template that can be used to build simple, but nice, websites for almost anything.
+# Unumico
+*A simple but nice one-page website template.*
 
-Features:
----------
+![screenshot](screenshot.png)
 
-  **Responsive** — The site template is built to be both mobile friendly and desktop friendly, with different layouts that should automatically adjust to your screen or windows size.
+### Usage
+----------
+To use Unumico, simply download the contents of this repository to your site root, and customise it as you wish.
 
-  **Scripts** - It comes with a contact form that uses a responsive script to send emails using the mailto function, scroll to top or bottom buttons, an automatically updating copyright year, self-changing site title (depending on what page you are on) and content that fades in at a comfortable speed when the page loads - among many small other site-improving and useful scripts (JavaScript/jQuery).
+### Features
+-------------
 
-  **One Page** - The template is built for the whole sites content to be on the one page, with different articles that appear and disappear depending on which page id you are visiting.
+- **Responsive** — The website template is built to be both mobile friendly and desktop friendly, with different layouts that should automatically adjust to your screen or windows size (according to the Google Chrome Developer Tools).
 
-  _The use of these features is governed by the Creative Commons Attribution 4.0 International License. See the LICENSE.md file for more information._
+- **Scripts** - It comes with a contact form that uses a responsive script to send emails using the mailto function, scroll to top or bottom buttons, an automatically updating copyright year, self-changing site title (depending on what page you are on) and content that fades in at a comfortable speed when the page loads - among many small other site-improving and useful scripts (JavaScript/jQuery).
 
-Downloading & Installing:
--------------------------
+- **One Page** - The template is built for the whole sites content to be on the one page, with different articles that appear and disappear depending on which page id you are visiting.
 
-  **Downloading** - Go to https://thedragonring.me/#work, find Unumico and click the download button.
-
-  **Installing** - Extract the downloaded files and move them to your site's root (or wherever you want them to go) and customize the files. Voila, done!
-
-  _Be careful when editing files! Sometimes just one wrong line can break the whole template._
-
-Screenshot:
------------
-![Unumico Screenshot](screenshot.png?raw=true)
-
-_**DISCLAIMER:** Some people may say Unumico is a copy of https://html5up.net/uploads/demos/dimension/. It's not. Sure, maybe I got some design ideas from Dimension - but the code is not copied. Unumico was mostly a learning experience for me: I wasn't aiming to make some new unique template._
+### Other Details
+------------------
+Unumico was a learning experience inspired https://html5up.net/uploads/demos/dimension/, not an attempt at creating some new unique template. It was made by TheDragonRing around April-May 2017. It is licensed under the [MIT License](LICENSE).
